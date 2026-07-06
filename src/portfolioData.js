@@ -90,7 +90,7 @@ export const projects = [
     ss: '/research-paper.png',
     tech: ['React', 'TypeScript', 'Node.js', 'Express', 'MySQL', 'MongoDB', 'JWT', 'Recharts'],
     live: '#',
-    code: 'https://github.com/pahwajii/research-paper-tracker',
+    code: 'https://github.com/pahwajii/research_paper',
   },
   {
     title: '💬 Post-It — Real-Time Social Media Platform',

@@ -25,7 +25,7 @@ Welcome to my personal portfolio website, built with **React.js**, **Framer Moti
    * A full-stack media platform featuring video upload & streaming via Multer and Cloudinary, custom playlists, subscription management, and a Twitter-like micro-blogging timeline.
    * **Tech:** React, Node.js, Express, MongoDB, JWT, Cloudinary, Multer, Tailwind CSS
 
-2. **📚 Research Paper Reading Tracker (`research-paper-tracker`)**
+2. **📚 Research Paper Reading Tracker (`research_paper`)**
    * Full-stack web app with a React/TypeScript frontend (Recharts analytics: funnel, scatter, stacked bar) and a Node.js/Express REST backend for managing and tracking reading stages of papers.
    * **Tech:** React, TypeScript, Node.js, Express, MySQL, MongoDB, JWT, Recharts
 
