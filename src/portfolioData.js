@@ -207,10 +207,10 @@ export const certificates = {
   ],
   other: [
     {
-      title: 'TCS CodeVita S13',
-      org: 'Tata Consultancy Services',
+      title: 'TCS CodeVita Season 13 Rank Certificate',
+      org: 'Tata Consultancy Services (TCS)',
       date: '2025',
-      img: '/certs/cert3.svg', // Global Rank 2028
+      img: '/certs/codevita.png',
       link: '#',
     },
     {
