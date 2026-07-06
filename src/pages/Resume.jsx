@@ -225,6 +225,7 @@ export default function Resume() {
 
         {/* PDF Viewer */}
         <motion.div
+          className="resume-pdf-container"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2 }}

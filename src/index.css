@@ -107,11 +107,50 @@ body{
 .cert{padding:12px;border-radius:12px;background:linear-gradient(90deg, rgba(255,255,255,0.01), transparent);border:1px solid rgba(255,255,255,0.02)}
 
 /* responsive */
+.menu-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 100;
+  padding: 8px;
+}
+
 @media (max-width:900px){
   .hero-hero{flex-direction:column;align-items:center;text-align:center;padding:24px}
   .hero-photo{width:260px;height:260px}
   .gallery-grid{grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}
   .skills-stage{height:360px}
+  .nav-links {
+    display: none !important;
+  }
+  .menu-btn {
+    display: block !important;
+  }
+  .container {
+    padding: 0 16px;
+    margin: 16px auto;
+  }
+  .resume-pdf-container {
+    display: none !important;
+  }
+}
+
+.mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(5, 5, 9, 0.98);
+  backdrop-filter: blur(20px);
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 /* 🌙 Contact Section Styling */
