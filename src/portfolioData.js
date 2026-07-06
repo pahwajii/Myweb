@@ -81,7 +81,7 @@ export const projects = [
     desc: 'A full-stack media platform featuring video upload & streaming via Multer and Cloudinary, custom playlists, subscription management, and a Twitter-like micro-blogging timeline for real-time user tweets.',
     ss: '/youtube-clone.png',
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Cloudinary', 'Multer', 'Tailwind CSS'],
-    live: '#',
+    live: 'https://chai-backendd.vercel.app/',
     code: 'https://github.com/pahwajii/chai-backendd',
   },
   {
@@ -89,7 +89,7 @@ export const projects = [
     desc: 'Full-stack web app with React/TypeScript frontend (Recharts analytics: funnel, scatter, stacked bar) and Node.js/Express REST backend; deployed on Vercel + Render.',
     ss: '/research-paper.png',
     tech: ['React', 'TypeScript', 'Node.js', 'Express', 'MySQL', 'MongoDB', 'JWT', 'Recharts'],
-    live: '#',
+    live: 'https://research-paper-vert.vercel.app/',
     code: 'https://github.com/pahwajii/research_paper',
   },
   {
