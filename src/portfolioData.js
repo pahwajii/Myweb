@@ -130,7 +130,7 @@ export const projects = [
     ss: '/portfolio.jpg',
     tech: ['React', 'Framer Motion', 'Tailwind CSS'],
     live: '#',
-    code: 'https://github.com/pahwajii/portfolioMain',
+    code: 'https://github.com/pahwajii/Myweb.git',
   },
 ]
 
