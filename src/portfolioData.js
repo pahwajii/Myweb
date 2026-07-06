@@ -204,6 +204,20 @@ export const certificates = {
       img: '/certs/oracleAI.png', // Placeholder SVG
       link: '#',
     },
+    {
+      title: 'Software Engineering Job Simulation',
+      org: 'Electronic Arts (EA) / Forage',
+      date: '2025',
+      img: '/certs/ea-forage.png',
+      link: '#',
+    },
+    {
+      title: 'Software Engineering Job Simulation',
+      org: 'Accenture / Forage',
+      date: '2025',
+      img: '/certs/accenture-forage.png',
+      link: '#',
+    },
   ],
   other: [
     {
