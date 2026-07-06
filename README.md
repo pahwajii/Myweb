@@ -29,7 +29,7 @@ Welcome to my personal portfolio website, built with **React.js**, **Framer Moti
    * Full-stack web app with a React/TypeScript frontend (Recharts analytics: funnel, scatter, stacked bar) and a Node.js/Express REST backend for managing and tracking reading stages of papers.
    * **Tech:** React, TypeScript, Node.js, Express, MySQL, MongoDB, JWT, Recharts
 
-3. **💬 Post-It — Real-Time Social Media Platform (`post-it`)**
+3. **💬 Post-It — Real-Time Social Media Platform (`social_web`)**
    * A full-stack social platform with real-time WebSocket messaging (Socket.io), REST API backend, and a jQuery/AJAX frontend for a zero-reload feed and notification experience.
    * **Tech:** Node.js, Express.js, MySQL, MongoDB, Socket.io, jQuery, AJAX, HTML, CSS
 

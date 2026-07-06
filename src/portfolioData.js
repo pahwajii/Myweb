@@ -98,7 +98,7 @@ export const projects = [
     ss: '/postit.png',
     tech: ['Node.js', 'Express.js', 'MySQL', 'MongoDB', 'Socket.io', 'jQuery', 'AJAX', 'HTML', 'CSS'],
     live: 'https://social-web-xi.vercel.app',
-    code: 'https://github.com/pahwajii/post-it',
+    code: 'https://github.com/pahwajii/social_web',
   },
   {
     title: '📊 Gemini Analyst Research Tool',
