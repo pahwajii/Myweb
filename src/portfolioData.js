@@ -246,7 +246,7 @@ export const gallery = {
     {
       id: 1,
       caption: 'Organizing placement drives as Secretary of the T&P Cell at BIET Jhansi 📈',
-      photos: ['/gallery/p1.jpeg'],
+      photos: ['/gallery/tpcdrive.jpg'],
     },
   ],
   projects: [
@@ -260,7 +260,7 @@ export const gallery = {
     {
       id: 1,
       caption: 'Achieved a rating of 1817 (Top 6%) on LeetCode with 300+ problems solved 🏆!',
-      photos: ['/gallery/leet.jpeg'],
+      photos: ['/gallery/leet.png'],
     },
   ],
 }
