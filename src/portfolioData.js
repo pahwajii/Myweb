@@ -77,9 +77,9 @@ export const experience = [
 
 export const projects = [
   {
-    title: '📹 YouTube Clone with Tweet Feature',
+    title: '📹 FeedTube — Video & Social Media Platform',
     desc: 'A full-stack media platform featuring video upload & streaming via Multer and Cloudinary, custom playlists, subscription management, and a Twitter-like micro-blogging timeline for real-time user tweets.',
-    ss: '/youtube-clone.png',
+    ss: '/feedtube.png',
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Cloudinary', 'Multer', 'Tailwind CSS'],
     live: 'https://chai-backendd.vercel.app/',
     code: 'https://github.com/pahwajii/chai-backendd',
@@ -129,7 +129,7 @@ export const projects = [
     desc: 'A modern and responsive portfolio built with React and Framer Motion, showcasing projects, skills, and achievements with smooth animations and interactive UI.',
     ss: '/portfolio.jpg',
     tech: ['React', 'Framer Motion', 'Tailwind CSS'],
-    live: '#',
+    live: 'https://myweb-gold-seven.vercel.app',
     code: 'https://github.com/pahwajii/Myweb.git',
   },
 ]
@@ -252,8 +252,13 @@ export const gallery = {
   projects: [
     {
       id: 1,
-      caption: 'Designing interactive charts with Recharts on the Research Paper Reading Tracker Dashboard 📊',
-      photos: ['/gallery/m.png', '/gallery/m2.jpeg'],
+      caption: 'Deterministic Plinko peg board drop column simulation in Plinko Lab 🟢',
+      photos: ['/gallery/plinko-lab.png'],
+    },
+    {
+      id: 2,
+      caption: 'Structured earnings transcript summary results in Gemini Analyst Research Tool 📊',
+      photos: ['/gallery/research-portal.png'],
     },
   ],
   achievements: [

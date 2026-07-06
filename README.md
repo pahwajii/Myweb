@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website, built with **React.js**, **Framer Motion**, and modern, premium design aesthetics. This site showcases my work, projects, skills, and journey as a developer passionate about **Full-Stack Development, APIs, and AI integrations**.
 
-🌐 **Live Website:** [https://github.com/pahwajii/Myweb](https://github.com/pahwajii/Myweb)
+🌐 **Live Website:** [myweb-gold-seven.vercel.app](https://myweb-gold-seven.vercel.app)
 
 ---
 
@@ -21,8 +21,8 @@ Welcome to my personal portfolio website, built with **React.js**, **Framer Moti
 
 ## 🚀 Projects Showcased
 
-1. **📹 YouTube Clone with Tweet Feature (`chai-backendd`)**
-   * A full-stack media platform featuring video upload & streaming via Multer and Cloudinary, custom playlists, subscription management, and a Twitter-like micro-blogging timeline.
+1. **📹 FeedTube — Video & Social Media Platform (`chai-backendd`)**
+   * A full-stack video-streaming and social micro-blogging platform featuring secure media uploads via Cloudinary, subscription systems, playlists, and user feeds.
    * **Tech:** React, Node.js, Express, MongoDB, JWT, Cloudinary, Multer, Tailwind CSS
 
 2. **📚 Research Paper Reading Tracker (`research_paper`)**
