@@ -6,6 +6,19 @@ Welcome to my personal portfolio website, built with **React.js**, **Framer Moti
 
 ---
 
+## 🖼️ Screenshots
+
+### Home Page
+![Home Page](public/screenshot-home.png)
+
+### Projects Page
+![Projects Page](public/screenshot-projects.png)
+
+### Resume Page
+![Resume Page](public/screenshot-resume.png)
+
+---
+
 ## 🚀 Projects Showcased
 
 1. **📹 YouTube Clone with Tweet Feature (`chai-backendd`)**
