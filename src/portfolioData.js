@@ -218,6 +218,13 @@ export const certificates = {
       img: '/certs/accenture-forage.png',
       link: '#',
     },
+    {
+      title: 'Data Science 101 (IBM)',
+      org: 'CognitiveClass.ai / IBM',
+      date: '2025',
+      img: '/certs/ibm-ds.png',
+      link: 'https://courses.cognitiveclass.ai/certificates/a4772c2d177348c68985dc22d969a429',
+    },
   ],
   other: [
     {
@@ -225,6 +232,13 @@ export const certificates = {
       org: 'Tata Consultancy Services (TCS)',
       date: '2025',
       img: '/certs/codevita.png',
+      link: '#',
+    },
+    {
+      title: 'Labmentix Common Aptitude Test (LCAT)',
+      org: 'LABMENTIX',
+      date: '2025',
+      img: '/certs/lcat.png',
       link: '#',
     },
     {
