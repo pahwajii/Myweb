@@ -258,7 +258,7 @@ export default function Home() {
           }}
         >
           <motion.a
-            href={'https://drive.google.com/file/d/18Nyu0Luz6-YEzG3BDmbU9usZwSvrz6MD/view?usp=drive_link'}
+            href={'https://drive.google.com/file/d/1Olkahn24wVW5GSL-aC9GsZSOPmkTisC7/view?usp=sharing'}
             title="Resume"
             target="_blank"
             rel="noopener noreferrer"
