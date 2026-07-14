@@ -103,26 +103,28 @@ export default function Projects() {
                   >
                     <Github size={14} /> Code
                   </motion.a>
-                  <motion.a
-                    href={p.live}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="btn"
-                    whileHover={{ scale: 1.08 }}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: 5,
-                      background: 'linear-gradient(90deg, #06b6d4, #0891b2)',
-                      color: '#fff',
-                      padding: '6px 12px',
-                      borderRadius: 8,
-                      fontSize: 13,
-                      textDecoration: 'none'
-                    }}
-                  >
-                    <ExternalLink size={14} /> Live
-                  </motion.a>
+                  {p.live && p.live !== '#' && (
+                    <motion.a
+                      href={p.live}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn"
+                      whileHover={{ scale: 1.08 }}
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 5,
+                        background: 'linear-gradient(90deg, #06b6d4, #0891b2)',
+                        color: '#fff',
+                        padding: '6px 12px',
+                        borderRadius: 8,
+                        fontSize: 13,
+                        textDecoration: 'none'
+                      }}
+                    >
+                      <ExternalLink size={14} /> Live
+                    </motion.a>
+                  )}
                 </div>
               </div>
             </motion.div>
