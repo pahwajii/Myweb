@@ -77,6 +77,14 @@ export const experience = [
 
 export const projects = [
   {
+    title: '💼 CareerOS — AI-Powered Job Tracker & Resume Suite',
+    desc: 'A production-grade, full-stack career suite featuring a job application CRM (Kanban, List, Calendar, and Analytics views), AI-assisted job description extraction, and an automated headless-Chrome rendering pipeline for generating high-fidelity tailored resumes in PDF, DOCX, and LaTeX formats.',
+    ss: '/careeros.png',
+    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Puppeteer', 'Tailwind CSS', 'Vite', 'Render', 'Vercel'],
+    live: '#',
+    code: 'https://github.com/pahwajii/CareerOs',
+  },
+  {
     title: '📹 FeedTube — Video & Social Media Platform',
     desc: 'A full-stack media platform featuring video upload & streaming via Multer and Cloudinary, custom playlists, subscription management, and a Twitter-like micro-blogging timeline for real-time user tweets.',
     ss: '/feedtube.png',

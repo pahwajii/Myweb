@@ -21,27 +21,31 @@ Welcome to my personal portfolio website, built with **React.js**, **Framer Moti
 
 ## 🚀 Projects Showcased
 
-1. **📹 FeedTube — Video & Social Media Platform (`chai-backendd`)**
+1. **💼 CareerOS — AI-Powered Job Tracker & Resume Suite (`CareerOs`)**
+   * A production-grade, full-stack career suite featuring a job application CRM (Kanban, List, Calendar, and Analytics views), AI-assisted job description extraction, and an automated headless-Chrome rendering pipeline for generating high-fidelity tailored resumes in PDF, DOCX, and LaTeX formats.
+   * **Tech:** React, Node.js, Express, MongoDB, Puppeteer, Tailwind CSS, Vite, Render, Vercel
+
+2. **📹 FeedTube — Video & Social Media Platform (`chai-backendd`)**
    * A full-stack video-streaming and social micro-blogging platform featuring secure media uploads via Cloudinary, subscription systems, playlists, and user feeds.
    * **Tech:** React, Node.js, Express, MongoDB, JWT, Cloudinary, Multer, Tailwind CSS
 
-2. **📚 Research Paper Reading Tracker (`research_paper`)**
+3. **📚 Research Paper Reading Tracker (`research_paper`)**
    * Full-stack web app with a React/TypeScript frontend (Recharts analytics: funnel, scatter, stacked bar) and a Node.js/Express REST backend for managing and tracking reading stages of papers.
    * **Tech:** React, TypeScript, Node.js, Express, MySQL, MongoDB, JWT, Recharts
 
-3. **💬 Post-It — Real-Time Social Media Platform (`social_web`)**
+4. **💬 Post-It — Real-Time Social Media Platform (`social_web`)**
    * A full-stack social platform with real-time WebSocket messaging (Socket.io), REST API backend, and a jQuery/AJAX frontend for a zero-reload feed and notification experience.
    * **Tech:** Node.js, Express.js, MySQL, MongoDB, Socket.io, jQuery, AJAX, HTML, CSS
 
-4. **📊 Gemini Analyst Research Tool (`Research_tool`)**
+5. **📊 Gemini Analyst Research Tool (`Research_tool`)**
    * A web-based document intelligence portal that digests financial earnings transcripts (PDF, DOCX, TXT) using the Gemini LLM to generate structured, analyst-ready summaries.
    * **Tech:** React, Node.js, Express, Gemini API, Cloudinary, Multer, Tailwind CSS
 
-5. **🟢 Plinko Lab — Provably Fair Game (`plinko-lab`)**
+6. **🟢 Plinko Lab — Provably Fair Game (`plinko-lab`)**
    * A deterministic 12-row Plinko game implementation in Next.js and Prisma featuring an interactive visual board, user-controlled client seed/bet parameters, and a commit-reveal fairness scheme.
    * **Tech:** Next.js, React, TypeScript, Tailwind CSS, Prisma, SQLite, Jest
 
-6. **💳 Subscription-based Payment System (`razorpay_integration`)**
+7. **💳 Subscription-based Payment System (`razorpay_integration`)**
    * Webhook-based payment reconciliation covering full subscription lifecycle; reduces failed-transaction fallthrough by 40% via Regex-based event classification and retry logic.
    * **Tech:** Node.js, MySQL, Razorpay API, Webhooks, Jest, OOP
 
