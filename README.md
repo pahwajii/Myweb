@@ -24,6 +24,7 @@ Welcome to my personal portfolio website, built with **React.js**, **Framer Moti
 1. **💼 CareerOS — AI-Powered Job Tracker & Resume Suite (`CareerOs`)**
    * A production-grade, full-stack career suite featuring a job application CRM (Kanban, List, Calendar, and Analytics views), AI-assisted job description extraction, and an automated headless-Chrome rendering pipeline for generating high-fidelity tailored resumes in PDF, DOCX, and LaTeX formats.
    * **Tech:** React, Node.js, Express, MongoDB, Puppeteer, Tailwind CSS, Vite, Render, Vercel
+   * **Live Application:** [career-os-job-tracker-app.vercel.app](https://career-os-job-tracker-app.vercel.app/)
 
 2. **📹 FeedTube — Video & Social Media Platform (`chai-backendd`)**
    * A full-stack video-streaming and social micro-blogging platform featuring secure media uploads via Cloudinary, subscription systems, playlists, and user feeds.

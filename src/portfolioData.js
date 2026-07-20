@@ -81,7 +81,7 @@ export const projects = [
     desc: 'A production-grade, full-stack career suite featuring a job application CRM (Kanban, List, Calendar, and Analytics views), AI-assisted job description extraction, and an automated headless-Chrome rendering pipeline for generating high-fidelity tailored resumes in PDF, DOCX, and LaTeX formats.',
     ss: '/careeros.png',
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Puppeteer', 'Tailwind CSS', 'Vite', 'Render', 'Vercel'],
-    live: '#',
+    live: 'https://career-os-job-tracker-app.vercel.app/',
     code: 'https://github.com/pahwajii/CareerOs',
   },
   {
