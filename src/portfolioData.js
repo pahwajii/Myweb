@@ -37,6 +37,7 @@ export const codeforcesLink = 'https://codeforces.com/profile/lakshaypahwa47?utm
 export const gfgLink = 'https://www.geeksforgeeks.org/profile/lakshaybz5jj'
 export const codolioLink = 'https://codolio.com/profile/Lakshaypahwa'
 export const codolioCardLink = 'https://codolio.com/profile/Lakshaypahwa/card'
+export const resumeDriveLink = 'https://drive.google.com/file/d/1Y8mhdR7SGU7v0TPrrnu0_6-oVMCM7h4Q/view?usp=sharing'
 
 export const dsaProfiles = [
   {
