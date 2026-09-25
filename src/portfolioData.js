@@ -31,8 +31,66 @@ export const socialLinks = [
   { img: '/facebook.png', title: 'Facebook', link: 'https://www.facebook.com/lakshaypahwa' },
 ]
 
-export const leetcodeLink = 'https://leetcode.com/u/pahwajii/'
+export const leetcodeLink = 'https://leetcode.com/u/lakshaypahwa/'
 export const codechefLink = 'https://www.codechef.com/users/lakshay_pahwa'
+export const codeforcesLink = 'https://codeforces.com/profile/lakshaypahwa47?utm=codolio'
+export const gfgLink = 'https://www.geeksforgeeks.org/profile/lakshaybz5jj'
+export const codolioLink = 'https://codolio.com/profile/Lakshaypahwa'
+export const codolioCardLink = 'https://codolio.com/profile/Lakshaypahwa/card'
+
+export const dsaProfiles = [
+  {
+    name: 'LeetCode',
+    username: '@lakshaypahwa',
+    link: 'https://leetcode.com/u/lakshaypahwa/',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/leetcode/leetcode-original.svg',
+    highlight: 'Rating 1817 (Top 6%)',
+    badge: 'Top 6% Rank',
+    stats: '300+ Problems Solved • Strong DSA',
+    color: '#ffa116',
+  },
+  {
+    name: 'CodeChef',
+    username: '@lakshay_pahwa',
+    link: 'https://www.codechef.com/users/lakshay_pahwa',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codechef/codechef-original.svg',
+    highlight: '3★ Rating (1654)',
+    badge: '3-Star Coder',
+    stats: 'Peak Rating 1654 • Division Contests',
+    color: '#5b4638',
+  },
+  {
+    name: 'Codeforces',
+    username: '@lakshaypahwa47',
+    link: 'https://codeforces.com/profile/lakshaypahwa47?utm=codolio',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeforces/codeforces-original.svg',
+    highlight: 'Active Contestant',
+    badge: 'Competitive Coder',
+    stats: 'Speed Problem Solving & Contest Math',
+    color: '#1f8acb',
+  },
+  {
+    name: 'GeeksforGeeks',
+    username: '@lakshaybz5jj',
+    link: 'https://www.geeksforgeeks.org/profile/lakshaybz5jj',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/geeksforgeeks/geeksforgeeks-original.svg',
+    highlight: 'Problem Solver',
+    badge: 'GFG Profile',
+    stats: 'DSA Concepts, Practice Problems & CS Fundamentals',
+    color: '#2f9e44',
+  },
+  {
+    name: 'Codolio Portfolio',
+    username: '@Lakshaypahwa',
+    link: 'https://codolio.com/profile/Lakshaypahwa',
+    cardImage: 'https://codolio.com/profile/Lakshaypahwa/card',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
+    highlight: '120 Active Days • 369 Contributions',
+    badge: 'Verified Card',
+    stats: '#TYPESCRIPT #DOCKERFILE #C++ #CSS #PLPGSQL #TEX',
+    color: '#f97316',
+  },
+]
 
 export const education = [
   {
@@ -47,6 +105,16 @@ export const education = [
 ]
 
 export const experience = [
+  {
+    role: 'Full Stack Developer Intern',
+    company: 'Daphnis Labs',
+    duration: 'July 2026 – Present',
+    highlights: [
+      'Hold full end-to-end ownership of client-facing web products, redesigning and rebuilding front-end and back-end components across multiple live client websites.',
+      'Building a Generative AI product-imagery pipeline: extracting existing product images from Shopify stores and PDFs, then applying prompt engineering with the OpenAI API to generate new, upload-ready product images.',
+      'Contributing to the redesign and ongoing development of Daphnis Labs’ own company website alongside client work.'
+    ]
+  },
   {
     role: 'SDE Intern',
     company: 'Hanabi Technologies',

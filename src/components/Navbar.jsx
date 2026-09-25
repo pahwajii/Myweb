@@ -6,6 +6,7 @@ import { profile } from "../portfolioData";
 const links = [
   { label: "Home", to: "/" },
   { label: "Projects", to: "/projects" },
+  { label: "DSA Profiles", to: "/dsa" },
   { label: "Gallery", to: "/gallery" },
   { label: "Skills", to: "/skills" },
   { label: "Certificates", to: "/certificates" },

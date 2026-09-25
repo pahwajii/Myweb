@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { profile, education, skills, socialLinks, leetcodeLink, codechefLink, projects, experience } from "../portfolioData";
+import { profile, education, skills, socialLinks, leetcodeLink, codechefLink, codeforcesLink, gfgLink, codolioLink, projects, experience } from "../portfolioData";
 
 export default function Resume() {
   return (
@@ -223,13 +223,16 @@ export default function Resume() {
             display: "flex",
             justifyContent: "center",
             flexWrap: "wrap",
-            gap: 24,
+            gap: 20,
             marginTop: 40,
           }}
         >
           {[
             { name: "🏆 LeetCode", link: leetcodeLink },
             { name: "⭐ CodeChef", link: codechefLink },
+            { name: "⚔️ Codeforces", link: codeforcesLink },
+            { name: "🟢 GeeksforGeeks", link: gfgLink },
+            { name: "⚡ Codolio", link: codolioLink },
             { name: "💻 GitHub", link: socialLinks.find(s => s.title.toLowerCase() === 'github')?.link || '#' },
             { name: "💼 LinkedIn", link: socialLinks.find(s => s.title.toLowerCase() === 'linkedin')?.link || '#' },
           ].map((site) => (
@@ -242,8 +245,12 @@ export default function Resume() {
               style={{
                 color: "#ccc",
                 textDecoration: "none",
-                fontSize: 15,
+                fontSize: 14,
                 fontWeight: 500,
+                background: "rgba(255,255,255,0.04)",
+                padding: "8px 14px",
+                borderRadius: 8,
+                border: "1px solid rgba(255,255,255,0.08)",
               }}
             >
               {site.name}
