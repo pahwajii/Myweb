@@ -24,7 +24,6 @@ export const profile = {
 export const socialLinks = [
   { img: '/github.png', title: 'GitHub', link: 'https://github.com/pahwajii' },
   { img: '/linkedin.png', title: 'LinkedIn', link: 'https://www.linkedin.com/in/lakshay-pahwa-a45991251' },
-  { img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codechef/codechef-original.svg', title: 'CodeChef', link: 'https://www.codechef.com/users/lakshay_pahwa' },
   { img: '/gmail.png', title: 'Email', link: 'mailto:lakshaypahwa47@gmail.com' },
   { img: '/whatsapp.png', title: 'WhatsApp', link: 'https://wa.me/+916396339806' },
   { img: '/insta.png', title: 'Instagram', link: 'https://www.instagram.com/_._.lakshayyyyy._._' },
@@ -54,7 +53,7 @@ export const dsaProfiles = [
     name: 'CodeChef',
     username: '@lakshay_pahwa',
     link: 'https://www.codechef.com/users/lakshay_pahwa',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codechef/codechef-original.svg',
+    icon: '/codechef.png',
     highlight: '3★ Rating (1654)',
     badge: '3-Star Coder',
     stats: 'Peak Rating 1654 • Division Contests',
