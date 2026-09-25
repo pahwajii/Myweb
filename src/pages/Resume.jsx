@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { profile, education, skills, socialLinks, leetcodeLink, projects, experience } from "../portfolioData";
+import { profile, education, skills, socialLinks, leetcodeLink, codechefLink, projects, experience } from "../portfolioData";
 
 export default function Resume() {
   return (
@@ -145,6 +145,32 @@ export default function Resume() {
           </div>
         </motion.div>
 
+        {/* Achievements & Certifications */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.75 }}
+          style={{
+            marginTop: 40,
+            border: "1px solid rgba(255,255,255,0.1)",
+            borderRadius: 12,
+            padding: "20px 24px",
+            background: "rgba(255,255,255,0.03)",
+          }}
+        >
+          <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>
+            🏆 Achievements & Certifications
+          </h4>
+          <ul style={{ paddingLeft: 20, margin: 0, color: "#ccc", fontSize: 14, lineHeight: 1.8 }}>
+            <li><strong>GATE 2026 Qualified</strong></li>
+            <li><strong>LeetCode:</strong> Rating 1817 (Top 6%), 300+ problems solved, strong DSA fundamentals</li>
+            <li><strong>CodeChef:</strong> 3★ (Rating 1654)</li>
+            <li><strong>TCS CodeVita S13:</strong> Global Rank 2028</li>
+            <li><strong>Oracle Cloud 2025:</strong> Data Science Professional & AI Foundations Associate</li>
+            <li><strong>Secretary, T&P Cell:</strong> Led placement drives & stakeholder communication for 200+ students</li>
+          </ul>
+        </motion.div>
+
         {/* Projects */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -152,9 +178,9 @@ export default function Resume() {
           transition={{ delay: 0.8 }}
           style={{ marginTop: 40 }}
         >
-          <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>💼 Projects</h4>
+          <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>💼 Key Projects</h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
-            {projects.slice(0, 4).map((proj, idx) => (
+            {projects.slice(0, 6).map((proj, idx) => (
               <li key={idx}>{idx + 1}️⃣ {proj.title.replace(/[^\w\s\-–]/gu, "").trim()}</li>
             ))}
           </ul>
@@ -196,12 +222,14 @@ export default function Resume() {
           style={{
             display: "flex",
             justifyContent: "center",
-            gap: 30,
+            flexWrap: "wrap",
+            gap: 24,
             marginTop: 40,
           }}
         >
           {[
             { name: "🏆 LeetCode", link: leetcodeLink },
+            { name: "⭐ CodeChef", link: codechefLink },
             { name: "💻 GitHub", link: socialLinks.find(s => s.title.toLowerCase() === 'github')?.link || '#' },
             { name: "💼 LinkedIn", link: socialLinks.find(s => s.title.toLowerCase() === 'linkedin')?.link || '#' },
           ].map((site) => (

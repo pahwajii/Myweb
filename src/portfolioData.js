@@ -18,12 +18,13 @@ export const profile = {
   ],
   bio1: 'Hi, I’m Lakshay Pahwa — a Full-Stack Developer passionate about building high-performance, robust, and scalable web applications. I specialize in the MERN stack, TypeScript, and database optimization, with a strong focus on clean API design and modern UI/UX.',
   bio2: 'I have hands-on experience designing RESTful APIs, implementing real-time communication via WebSockets, and automating test suites. I enjoy resolving performance bottlenecks and building tools that make interaction intuitive and efficient.',
-  bio3: 'B.Tech CSE student at BIET Jhansi with hands-on internship experience in API development, authentication architectures, and test automation. Proven problem solver with a LeetCode rating of 1817 (Top 6%) and expertise in JavaScript, Python, and SQL.',
+  bio3: 'B.Tech CSE student at BIET Jhansi with hands-on internship experience in API development, authentication architectures, and test automation. GATE 2026 Qualified, LeetCode 1817 (Top 6%), CodeChef 3★ (1654), TCS CodeVita S13 Global Rank 2028, with expertise in JavaScript, Python, SQL, and Full-Stack Development.',
 }
 
 export const socialLinks = [
   { img: '/github.png', title: 'GitHub', link: 'https://github.com/pahwajii' },
   { img: '/linkedin.png', title: 'LinkedIn', link: 'https://www.linkedin.com/in/lakshay-pahwa-a45991251' },
+  { img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codechef/codechef-original.svg', title: 'CodeChef', link: 'https://www.codechef.com/users/lakshay_pahwa' },
   { img: '/gmail.png', title: 'Email', link: 'mailto:lakshaypahwa47@gmail.com' },
   { img: '/whatsapp.png', title: 'WhatsApp', link: 'https://wa.me/+916396339806' },
   { img: '/insta.png', title: 'Instagram', link: 'https://www.instagram.com/_._.lakshayyyyy._._' },
@@ -31,6 +32,7 @@ export const socialLinks = [
 ]
 
 export const leetcodeLink = 'https://leetcode.com/u/pahwajii/'
+export const codechefLink = 'https://www.codechef.com/users/lakshay_pahwa'
 
 export const education = [
   {
@@ -77,6 +79,22 @@ export const experience = [
 
 export const projects = [
   {
+    title: '🏺 Cane & Clay — Premium Interior Design Studio Web App',
+    desc: 'Engineered the official web application for Cane & Clay, a luxury interior design studio. Built with Next.js (App Router), featuring multi-layered parallax hero scenes, bespoke service discipline showcases (Architecture, Bespoke Furniture, Turnkey Execution, Landscape Design), custom motion scroll animations, and optimized WebP media delivery.',
+    ss: '/proj_caneandclay.png',
+    tech: ['Next.js', 'React', 'Tailwind CSS', 'Framer Motion', 'GSAP', 'TypeScript', 'Node.js'],
+    live: 'https://caneandclay.com',
+    code: '#',
+  },
+  {
+    title: '🏨 Hotel Ambika Residency — Luxury Hospitality & Reservation Platform',
+    desc: 'Developed the official web platform for Hotel Ambika Residency in Port Blair (Sri Vijaya Puram), Andaman & Nicobar Islands. Built with Next.js, featuring interactive date-picker booking dialogs with LetsBook engine integration, Standard & Premium room showcases, Schema.org JSON-LD hotel metadata, and local Andaman travel guides.',
+    ss: '/proj_ambika.png',
+    tech: ['Next.js', 'React', 'Tailwind CSS', 'Schema.org JSON-LD', 'LetsBook API', 'TypeScript'],
+    live: 'https://ambikaresidency.com',
+    code: '#',
+  },
+  {
     title: '💼 CareerOS — AI-Powered Job Tracker & Resume Suite',
     desc: 'A production-grade, full-stack career suite featuring a job application CRM (Kanban, List, Calendar, and Analytics views), AI-assisted job description extraction, and an automated headless-Chrome rendering pipeline for generating high-fidelity tailored resumes in PDF, DOCX, and LaTeX formats.',
     ss: '/careeros.png',
@@ -94,7 +112,7 @@ export const projects = [
   },
   {
     title: '📚 Research Paper Reading Tracker',
-    desc: 'Full-stack web app with React/TypeScript frontend (Recharts analytics: funnel, scatter, stacked bar) and Node.js/Express REST backend; deployed on Vercel + Render.',
+    desc: 'Full-stack web app with React/TypeScript frontend (Recharts analytics: funnel, scatter, stacked bar) and Node.js/Express REST backend. Implemented JWT auth with per-user data isolation; validated all endpoints in Postman with structured test cases covering auth, CRUD, analytics, and edge cases.',
     ss: '/research-paper.png',
     tech: ['React', 'TypeScript', 'Node.js', 'Express', 'MySQL', 'MongoDB', 'JWT', 'Recharts'],
     live: 'https://research-paper-vert.vercel.app/',
@@ -102,7 +120,7 @@ export const projects = [
   },
   {
     title: '💬 Post-It — Real-Time Social Media Platform',
-    desc: 'Built a full-stack social platform with real-time WebSocket messaging (Socket.io), REST API backend, and jQuery/AJAX frontend for zero-reload feed and notification updates.',
+    desc: 'Built a full-stack social platform with real-time WebSocket messaging (Socket.io), REST API backend, and jQuery/AJAX frontend for zero-reload feed. Designed RESTful URL routing, dual MongoDB/MySQL data models, and applied BFS graph traversal for social connection recommendations.',
     ss: '/postit.png',
     tech: ['Node.js', 'Express.js', 'MySQL', 'MongoDB', 'Socket.io', 'jQuery', 'AJAX', 'HTML', 'CSS'],
     live: 'https://social-web-xi.vercel.app',
@@ -126,7 +144,7 @@ export const projects = [
   },
   {
     title: '💳 Subscription-based Payment System (Razorpay)',
-    desc: 'Webhook-based payment reconciliation covering full subscription lifecycle; reduced failed-transaction fallthrough by ~40% via Regex-based event classification and retry logic.',
+    desc: 'Webhook-based payment reconciliation covering full subscription lifecycle; reduced failed-transaction fallthrough by ~40% via Regex event classification. Documented 10+ API routes with edge-case test decisions; maintained shared knowledge base of failure modes.',
     ss: '/razorpay-integration.png',
     tech: ['Node.js', 'MySQL', 'Razorpay API', 'Webhooks', 'Jest', 'OOP'],
     live: '#',
@@ -234,6 +252,7 @@ export const skills = [
   { name: 'JavaScript', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
   { name: 'TypeScript', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
   { name: 'React', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+  { name: 'Next.js', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
   { name: 'Node.js', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
   { name: 'Express', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' },
   { name: 'Python', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
@@ -247,7 +266,7 @@ export const skills = [
 
 export const skillsRows = [
   [
-    { title: 'Frontend Technologies', items: ['React.js', 'JavaScript (ES6+)', 'TypeScript', 'HTML5', 'CSS3', 'jQuery', 'AJAX'] },
+    { title: 'Frontend Technologies', items: ['React.js', 'Next.js (App Router)', 'TypeScript', 'JavaScript (ES6+)', 'Tailwind CSS', 'HTML5/CSS3', 'jQuery', 'AJAX'] },
     { title: 'Backend & APIs', items: ['Node.js', 'Express.js', 'REST API Design', 'MVC Architecture', 'Webhooks'] },
     { title: 'Databases & Cache', items: ['MongoDB', 'MySQL', 'PostgreSQL', 'Firebase Firestore', 'Redis'] },
     { title: 'Tools & Testing', items: ['Git', 'Postman', 'Jest', 'Docker', 'Vercel', 'Render'] },
@@ -268,8 +287,11 @@ export const skillsRows = [
       title: 'Soft Skills / Achievements',
       items: [
         'GATE 2026 Qualified',
+        'LeetCode Rating 1817 (Top 6%)',
+        'CodeChef 3★ (Rating 1654)',
+        'TCS CodeVita S13 (Global Rank 2028)',
         'T&P Cell Secretary (200+ students)',
-        'Problem Solving',
+        'Problem Solving & Strong DSA',
         'Teamwork & Collaboration',
         'Communication'
       ],
@@ -285,6 +307,20 @@ export const certificates = {
       date: '2026',
       img: '/certs/gate.png', // Placeholder SVG
       link: '#',
+    },
+    {
+      title: 'LeetCode 1817 (Top 6% Rank)',
+      org: 'LeetCode',
+      date: '2025-2026',
+      img: '/certs/leet.png',
+      link: 'https://leetcode.com/u/pahwajii/',
+    },
+    {
+      title: 'CodeChef 3★ (Rating 1654)',
+      org: 'CodeChef',
+      date: '2025',
+      img: '/certs/codechef.png',
+      link: 'https://www.codechef.com/users/lakshay_pahwa',
     },
     {
       title: 'Oracle Cloud Data Science Professional',
@@ -324,7 +360,7 @@ export const certificates = {
   ],
   other: [
     {
-      title: 'TCS CodeVita Season 13 Rank Certificate',
+      title: 'TCS CodeVita Season 13 (Global Rank 2028)',
       org: 'Tata Consultancy Services (TCS)',
       date: '2025',
       img: '/certs/codevita.png',
