@@ -27,7 +27,7 @@ export const socialLinks = [
   { img: '/gmail.png', title: 'Email', link: 'mailto:lakshaypahwa47@gmail.com' },
   { img: '/whatsapp.png', title: 'WhatsApp', link: 'https://wa.me/+916396339806' },
   { img: '/insta.png', title: 'Instagram', link: 'https://www.instagram.com/_._.lakshayyyyy._._' },
-  { img: '/facebook.png', title: 'Facebook', link: 'https://www.facebook.com/lakshaypahwa' },
+  { img: '/facebook.png', title: 'Facebook', link: 'https://www.facebook.com/lakshay.pahwa.73/' },
 ]
 
 export const leetcodeLink = 'https://leetcode.com/u/lakshaypahwa/'
